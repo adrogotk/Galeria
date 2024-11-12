@@ -2,4 +2,4 @@
 
 ## Diseño
 
-<img src="img/diseño_galeria">
+<img src="img/diseño_galeria.png">

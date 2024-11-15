@@ -12,8 +12,6 @@ public class Alfarero extends Trabajador implements Runnable{
 		try {
 	    for (int i=1; i<=Galeria.TOTAL_PLATOS; i++){
 			this.galeria.colocar();
-			int nPlatos=this.galeria.getNPlatosVendidos();
-			super.imprimir(String.format(TEXTO_PRODUCCION, nPlatos));
 	    }
         } catch (InterruptedException e) {
              super.imprimir(e.getMessage());

@@ -11,8 +11,6 @@ public class Vendedor extends Trabajador implements Runnable{
 		try {
           for (int i=1; i<=Galeria.TOTAL_PLATOS; i++){
 			this.galeria.vender();
-			int nPlatos=this.galeria.getNPlatosVendidos();
-			super.imprimir(String.format(TEXTO_VENTA, nPlatos));
 		  }
         } catch (InterruptedException e) {
             super.imprimir(e.getMessage());

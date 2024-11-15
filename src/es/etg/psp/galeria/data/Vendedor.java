@@ -13,7 +13,7 @@ public class Vendedor extends Trabajador implements Runnable{
 			this.galeria.vender();
 		  }
         } catch (InterruptedException e) {
-            super.imprimir(e.getMessage());
+            System.exit(1);
         }
 	}
 }

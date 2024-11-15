@@ -14,7 +14,7 @@ public class Alfarero extends Trabajador implements Runnable{
 			this.galeria.colocar();
 	    }
         } catch (InterruptedException e) {
-             super.imprimir(e.getMessage());
+            System.exit(1);
         }
 	}
 }
